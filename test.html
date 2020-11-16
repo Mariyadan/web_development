@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>Виды соревнований</title>
+  <link href='style.css' rel='stylesheet' type='text/css'/>
+  <script type ='text/javascript' src='myScript1.js'></script>
+  <script src='https://code.jquery.com/jquery-3.5.1.js'></script>
+  <script type ='text/javascript' src='jquery.js'></script>
+    <script>
+  $( init );
+  function init() {
+  $('#myButton').bind( 'click', sayHello );
+}
+  function sayHello() {
+  alert( "Давайте его обсудим:)");}
+</script>
+</head>
+ <body>
+  <p><img src='shutterstock_1036161856.jpg'alt="Dog" class="adaptation" id='dogs'>
+    <button id="anim">Кликни сюда</button>
+    <script type="text/javascript">
+  $(function() {
+  $('#anim').click(function(){
+  $('#dogs').animate({ 'margin-left': '+=70', width: '-=50', height: '-=50'}, 1000); 
+});
+  });
+    </script>
+  <div>2000-2020 гг. Региональная общественная организация</div>
+ <script>
+  $("<h6>ПРИГЛАШАЕМ ПРИНЯТЬ УЧАСТИЕ!</h6>").appendTo("div");
+  </script>
+
+ 	<table border="1">
+  <h1>Виды соревнований для собак:</h1>
+  <p><b>I Выставки;</b></p> 
+  <p><b>II Соревнования по определенным дисциплинам:</b></p> 
+    <nav>
+    <ol>
+  <li>Вейтпуллинг;</li>
+  <li>Фрисби;</li>
+  <li>Питч-энд-гоу;</li>
+  <li>Фристаил;</li>
+    </ol>
+    </nav>
+ <p><b>III Ездовой спорт.</b></p>  
+ <div>
+<input type="button" id="myButton" value="У вас есть вопрос?" />
+</div>
+  </table>
+  <table border="1">
+    <h2>Спортивные мероприятия в 2021 году:</h2>
+   <tr>
+    <th>Выставки</th>
+    <th>Вейтпуллинг</th>
+    <th>Фрисби</th>
+    <th>Ездовой спорт.</th>
+    </tr>
+   <tr><td>Сочи</td><td>Москва</td><td>Омск</td><td>Тюмень</td></tr>
+   <tr><td>Санкт-Петербург</td><td>Тюмень</td><td>Калининград</td><td>Казань</td></tr>
+   <tr><td>Калининград</td><td>Пермь</td><td>Ростов-на-Дону</td><td>Великий Новгород</td></tr>
+   <tr><td>Мурманск</td><td>Екатеринбург</td><td>Москва</td><td>Тула</td></tr>
+  </table>
+  <h3>Количество городов участников в 2021:</h3>
+  <p id="console.log"></p>
+<script>
+  var x = 7;    
+  var y = 7;    
+  var z = x + y; 
+  document.getElementById("console.log").innerHTML = z;
+</script>
+</div>
+  <div id="popup" class="popup">
+  <div class="title">Отправить заявку на участие
+</div>
+<form action="">
+  <input type="text" placeholder="email address">
+  <button class="btn">Отправить</button>
+  </form>
+</div>
+  <h4 id="demo"></h4>
+<script>
+  var d = new Date();
+  document.getElementById("demo").innerHTML = d;
+</script>
+ </body>
+</html>

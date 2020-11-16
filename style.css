@@ -1,0 +1,52 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+ 	font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background:#e8e3e6;
+ }
+p {
+	font-size: 20px;
+    color:#7CC3E1;
+}
+nav ol {
+    text-align: center;
+  	max-width: 200px;
+ 	margin: 0 auto;
+ 	font-size: 20px;
+    color:#636771;
+}
+h2 {
+    font-size: 20px;
+    color:#838996;
+}
+table {
+    text-align: center;
+    margin: 0 auto;
+}
+
+tr {
+    font-size: 16px
+}
+.adaptation {
+    margin: 10px;
+    padding: 0;
+    position: relative;
+    width: 40%;
+    height:auto;
+}
+h4 {
+    font-size: 12px;
+}
+h6 {
+    background:#7CC3E1;
+    font-size: 20px;
+}
+.popup {
+    text-align: center;
+    margin: 0 auto;
+    color:#838996;
+    background:#7CC3E1;
+
